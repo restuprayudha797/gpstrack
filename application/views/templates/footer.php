@@ -183,6 +183,15 @@
          );
      });
  </script>
+
+
+ <script type="text/javascript">
+     $(document).ready(function() {
+         setTimeout(function() {
+             location.reload();
+         }, 30000);
+     })
+ </script>
  </body>
 
  </html>
