@@ -184,6 +184,15 @@
      });
  </script>
 
+ <script type="text/javascript">
+     $(document).ready(function() {
+         setTimeout(function() {
+             location.reload();
+         }, 15000);
+     })
+ </script>
+
+
  </body>
 
  </html>

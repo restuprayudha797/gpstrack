@@ -88,7 +88,7 @@ class Home extends CI_Controller
 
         $this->load->view('templates/headerr');
         $this->load->view('application/index', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/footerr');
     }
 
     public function Power()
