@@ -79,13 +79,6 @@ class Home extends CI_Controller
 
         $data['marker'] = $this->db->get('tb_marker')->result_array();
 
-
-
-
-
-
-
-
         $this->load->view('templates/headerr');
         $this->load->view('application/index', $data);
         $this->load->view('templates/footerr');
